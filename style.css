@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header Page */
+
+#front-page{
+    height: 30vh;
+    overflow: hidden;
+}
+
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: static;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.front-header-h1, .front-header-h2 {
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    text-shadow: 5px 5px 10px purple; 
+    opacity: 0.8;
+}
+
+.front-header-h1 {
+    top: 40px;
+    font-family: 'Mea Culpa', cursive;
+    font-size: 5rem;
+    font-weight: 100;
+}
+
+.front-header-h2 {
+    top: 150px;
+    font-family: 'Montserrat', Arial;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.underline {
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 670px;
+    margin: 0 auto;
+}
+
+#book-content {
+    background-color: white;
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.book-info {
+    padding: 30px 0;
+}
+
+.book-info img {
+    width: 10%;
+    float: left;
+    margin-right: 50px;   
+    border-radius: 10%;
+    box-shadow: 20px 20px 20px darkgray;
+}
+
+.book-info h2 {
+    margin-bottom: 30px;
+}
+
+.book-info p {
+    line-height: 2;
+}
+
+/* Navigation Bar */
+
+nav {
+    width: 100%;
+    background-color: black;
+    padding: 10px 0;
+}
+
+nav ul {
+    color: white;
+    width: 30%;
+    display: flex;
+}
+
+nav ul li {
+    padding: 0 20px;
+    list-style: none;
+    border-right: 2px solid white;
+}
+
+nav ul li:nth-child(4) {
+    border-right: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 2s;
+}
+
+nav ul li a:hover {
+    color: gold;
+}
+
+
+/* Author Content  */
+
+#author {
+    width: 100%;
+    background-color: black;
+    color: white;    
+}
+
+.author-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.author-content h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.author-content p {
+    padding: 100px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.author-content img {
+    width: 15%;
+    float: left;
+    border: 5px inset darkgray;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+.social {
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.social i {
+    padding: 0 10px;
+    transition: 2s;
+}
+
+.social i:hover {
+    color: gold;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* Header Page End */
+
+/* Book Content */
+
+
+
+/* Book Content End */
+
+
